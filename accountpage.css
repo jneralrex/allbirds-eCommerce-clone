@@ -1,0 +1,371 @@
+*{
+ padding: 0;
+ margin: 0;
+ list-style: none;
+  font-family: Geograph, Helvetica, Arial, sans-serif;
+ }
+.div-one{
+ background-color: #33462a;
+ color: white;
+ text-align: center;
+ height: 40px;
+ position: fixed;
+width: 100%;
+ top: 0;
+ transition: top 0.3s;
+}
+.div-one-p{
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-top: 12px;
+}
+.div-one-link{
+ color: #ffff;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-size: 15px;
+ font-weight: 700;
+ background-color: #ffff;
+ box-shadow: 0px 5px 10px 0px#f4f4f4;
+ overflow: hidden;
+ position: sticky;
+ z-index: 1;
+ top: 0;
+ margin-top: 50px;
+ margin-bottom: 2px;
+}
+.nav-ul-one{
+display: flex;
+padding-top: 20px;
+}
+.nav-ul-one a{
+text-decoration: none;
+color: #212a2f;
+}
+.nav-ul-one :nth-child(6){
+color: #ad1f00;
+}
+.nav-ul-one :nth-child(6):hover{
+color: #ad1f00;
+}
+.nav-ul-one li{
+margin-right: 40px;
+Color:#212a2f;
+text-transform: uppercase;
+}
+.nav-ul-one li:hover{
+margin-right: 40px;
+Color:#212a2f;
+text-transform: uppercase;
+text-decoration: underline;
+cursor: pointer;
+}
+.nav-ul-two{
+ display: flex;
+ padding-top: 20px;
+ padding-left: 60px;
+}
+.logo-pics-one{
+ height: 40px;
+}
+.nav-ul-three{
+ display: flex;
+ padding-top: 20px;
+ padding-left: 60px;
+}
+.nav-ul-three li{
+margin-left: 40px;
+Color:#212a2f;
+text-transform: uppercase;
+}
+.nav-ul-three li:hover{
+margin-left: 40px;
+Color:#212a2f;
+text-transform: uppercase;
+text-decoration: underline;
+cursor: pointer;
+}
+.nav-ul-four{
+display: flex;
+padding-top: 20px;
+}
+.nav-ul-four :nth-child(3) img{
+height: 28px;
+}
+.nav-ul-four li{
+margin-left: 15px;
+}
+.nav-ul-four li:hover{
+margin-left: 15px;
+cursor: pointer;
+}
+
+
+.form-area{
+height: 150vh;
+background-color: #f1ebe7;
+}
+.forms{
+ display: flex;
+ margin-left: 150px;
+  margin-right: 150px;
+}
+.form-details{
+ margin-top: 75px;
+  margin-bottom: 200px;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+.name{
+ padding: 20px 100px;
+ background-color: white;
+ border: none;
+}
+.email{
+ padding: 20px 100px;
+ background-color: white;
+  border: none;
+}
+.password{
+ padding: 20px 100px;
+ background-color: white;
+  border: none;
+}
+.tel{
+ padding: 20px 100px;
+ background-color: white;
+  border: none;
+}
+.signUpassword{
+  padding: 20px 100px;
+ background-color: white;
+  border: none;
+}
+.comfirmPassword{
+  padding: 20px 100px;
+ background-color: white;
+  border: none;
+}
+.checkbox{
+ margin-top: 15px;
+  margin-bottom: 15px;
+   margin-right: 15px;
+ background-color: #000000;
+}
+
+.btn1{
+  padding: 20px 159px;
+ background-color: #000000;
+ color: #ffff;
+  border: none;
+  text-transform: uppercase;
+}
+.btn1:hover{
+  padding: 20px 156px;
+ background-color:#ffff;
+ color: #000000;
+ border: 2px solid #000000;
+}
+.btn2{
+  padding: 20px 150px;
+ background-color: #000000;
+ color: #ffff;
+  border: none;
+  text-transform: uppercase;
+}
+.btn2:hover{
+  padding: 20px 150px;
+ background-color:#ffff;
+ color: #000000;
+  border:  2px solid #000000;
+}
+.form-title{
+font-size: 24px;
+font-weight: 400;
+line-height: 14px;
+color: #000000;
+text-transform: uppercase;
+ margin-bottom: 20px;
+}
+.info{
+ font-size: 15px;
+font-weight: 400;
+line-height: 14px;
+color: #000000;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+input{
+ margin-top: 2px;
+ margin-bottom: 20px;
+}
+.field-title{
+ font-size: 12px;
+ line-height: 12px;
+ font-weight: 600;
+ color: #000000;
+ text-transform: uppercase;
+}
+.checkbox{
+  font-size: 11px;
+ line-height: 12px;
+ font-weight: 600;
+ margin-top: 10px
+}
+.forgot-password {
+ text-align: center;
+  font-size: 12px;
+ line-height: 12px;
+ font-weight: 600;
+ color: #000000;
+ text-transform: uppercase;
+ margin-top: 10px;
+}
+.forgot-password a{
+ text-align: center;
+  font-size: 12px;
+ line-height: 12px;
+ font-weight: 600;
+ color: #000000;
+ text-transform: uppercase;
+}
+.terms-of-use{
+   text-align: center;
+  font-size: 11px;
+ line-height: 12px;
+ font-weight: 400;
+ color: #000000;
+ margin-top: 20px;
+}
+.required{
+text-align: center;
+font-size: 14px;
+ line-height: 12px;
+ font-weight: 700;
+ color: #000000;
+ margin-top: 20px;
+text-transform: uppercase;
+}
+
+
+
+
+
+footer{
+  background-color: #212a2f;
+}
+.list-titles{
+  display: flex;
+    padding-top: 70px;
+}
+.footer-list{
+  display: flex;
+  padding-bottom: 120px;
+}
+.footer-list-ul{
+color: #ffff;
+}
+.footer-list-ul li{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: capitalize;
+  color: #ffff;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+.footer-ul-list-title{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-ul-list-title-r{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffff;
+  padding-left: 80px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-ul-list-title-r2{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffff;
+  padding-left: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.left{
+margin-left: 20px;
+}
+.right{
+margin-left: 200px;
+}
+.footer-div-one{
+  display: flex;
+  margin-bottom: 100px;
+}
+.footer-div-one-text-board{
+  margin-left: 20px;
+}
+.footer-div-one-p-title{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.footer-div-one-p-body{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffff;
+  margin-left: 20px;
+  margin-bottom: 15px
+}
+.footer-div-one-social-list{
+  display: flex;
+}
+.footer-div-one-social-list li{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.flag-list{
+  display: flex;
+  padding-left: 340px;
+}
+.flag-list li{
+ margin-left: 25px;
+ cursor: pointer;
+}
+.footer-end-div{
+text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffff;
+  padding-bottom: 100px
+}
+.footer-end-div-p1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-end-div a{
+  color: #ffff;
+}

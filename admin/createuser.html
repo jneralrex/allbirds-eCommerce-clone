@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="createuser.css" />
+  </head>
+  <body>
+    <div class="form-area">
+      <p class="title">create user</p>
+      <form action="">
+        <label for="name">
+          full name
+          <br />
+          <input type="text" name="" id="name" placeholder="Full name" />
+          <span id="userFullNameError" class="error"> </span>
+        </label>
+        <br />
+        <label for="phone number">
+          phone number<br />
+          <input type="tel" name="" id="phone" placeholder="Phone number" />
+          <span id="userPhoneError" class="error"> </span>
+        </label>
+        <br />
+        <label for="email">
+          email<br />
+          <input type="email" name="" id="email" placeholder="Enter email" />
+          <span id="userEmailError" class="error"> </span>
+        </label>
+        <br />
+        <label for="password">
+          password<br />
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Enter password"
+          />
+          <span id="passwordError" class="error"> </span>
+        </label>
+        <br />
+
+        <div class="btn">
+          <label for="createUserBtn"
+            ><button type="button" id="createUserBtn">
+              create user
+            </button></label
+          >
+          <label for="logOut"
+            ><button type="button">
+              <a href="adminPageLogin.html">log out</a>
+            </button></label
+          >
+        </div>
+      </form>
+    </div>
+    <script src="createUser.js"></script>
+  </body>
+</html>

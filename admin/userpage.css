@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main-holder {
+  display: flex;
+}
+.side-bar {
+  height: 745px;
+  width: 200px;
+  border: 2px solid #000000;
+  background-color: #30005c;
+  color: #fff;
+  margin-right: 0px;
+  position: fixed;
+}
+.side-bar-details-ul li {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.right-properties {
+  background-color: #ffc0cb;
+  width: 80%;
+  margin-left: 250px;
+}
+.admin-section {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+}
+.admin-section-title {
+  height: 20px;
+  width: 100%;
+  background-color: #f3f3f3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.order-boxes-section {
+  display: flex;
+}
+
+.order-boxes {
+  padding: 50px 110px;
+  border: 2px solid #000000;
+  margin-right: 18px;
+  border-radius: 10px;
+  background-color: #612123;
+}
+.section-subheading-and-btn {
+  display: flex;
+  width: 940px;
+  justify-content: space-between;
+  border: 1px solid #f3f3f3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f3f3f3;
+}
+.subsection-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.btn {
+  background-color: #ef4f15;
+  text-transform: capitalize;
+  border: 1px solid #ef4f15;
+  font-size: 16px;
+  font-weight: 400;
+}
+th {
+  border-left: 2px solid brown;
+  border-top: 2px solid brown;
+  border-right: 2px solid brown;
+  border-bottom: 2px solid brown;
+  padding: 10px;
+  text-align: center;
+}
+.row {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+td {
+  border-right: 2px solid brown;
+  border-left: 2px solid brown;
+  border-bottom: 2px solid brown;
+  padding: 10px;
+  text-align: center;
+}
+td:hover {
+  background-color: #fefefe;
+}
+.row {
+  margin: 50px;
+  padding: 0;
+}
+.userDetailsContainer {
+  width: 50px;
+}

@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Geograph, Helvetica, Arial, sans-serif;
+}
+
+.div-one {
+  background-color: #33462a;
+  color: white;
+  text-align: center;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+}
+
+.div-one-p {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-top: 12px;
+}
+
+.div-one-link {
+  color: #ffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #ffff;
+  box-shadow: 0px 5px 10px 0px#f4f4f4;
+  overflow: hidden;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav-ul-one {
+  display: flex;
+  padding-top: 20px;
+}
+
+.nav-ul-one a {
+  text-decoration: none;
+  color: #212a2f;
+}
+
+.nav-ul-one :nth-child(6) {
+  color: #ad1f00;
+}
+
+.nav-ul-one :nth-child(6):hover {
+  color: #ad1f00;
+}
+
+.nav-ul-one li {
+  margin-right: 40px;
+  Color: #212a2f;
+  text-transform: uppercase;
+}
+
+.nav-ul-one li:hover {
+  margin-right: 40px;
+  Color: #212a2f;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-ul-two {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.logo-pics-one {
+  height: 40px;
+}
+
+.nav-ul-three {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.nav-ul-three li {
+  margin-left: 40px;
+  Color: #212a2f;
+  text-transform: uppercase;
+}
+
+.nav-ul-three li:hover {
+  margin-left: 40px;
+  Color: #212a2f;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-ul-four {
+  display: flex;
+  padding-top: 20px;
+}
+
+.nav-ul-four :nth-child(3) img {
+  height: 28px;
+}
+
+.nav-ul-four li {
+  margin-left: 15px;
+}
+
+.nav-ul-four li:hover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav-ul-four li {
+  margin-left: 15px;
+}
+
+.nav-ul-four li:hover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.section-one-holder {
+  display: flex;
+}
+
+.boxes {
+  background-image: url(./images/allbirds-images-mens-collections/AB00FVM090_SHOE_45_GLOBAL_MENS_TREE_RUNNER_HAZY_INDIGO_BLIZZARD.avif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 55px;
+  width: 55px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.middle {
+  background-image: url(./images/allbirds-images-mens-collections/AB00FVM090_SHOE_45_GLOBAL_MENS_TREE_RUNNER_HAZY_INDIGO_BLIZZARD.avif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  height: 525px;
+  width: 600px;
+  margin: 10px;
+}
+
+.details {
+  height: 88vh;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.top-text {
+  display: flex;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  color: #212a2f;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.top-text li {
+  margin: 2px;
+}
+
+.shoe-title {
+  font-size: 32px;
+  line-height: 42px;
+  color: #212a2f;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.price-and-shipping-fee {
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.shipping-fee {
+  padding: 3px 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 12px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.category-title {
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.classic-box-holder {
+  display: flex;
+}
+
+.classic-boxes {
+  background-image: url(./images/allbirds-images-mens-collections/AB00FVM090_SHOE_45_GLOBAL_MENS_TREE_RUNNER_HAZY_INDIGO_BLIZZARD.avif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-bottom: 25px;
+}
+
+.size-box {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border: 1px solid black;
+}

@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Geograph, Helvetica, Arial, sans-serif;
+}
+.div-one {
+  background-color: #33462a;
+  color: white;
+  text-align: center;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+}
+.div-one-p {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-top: 12px;
+}
+.div-one-link {
+  color: #ffff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #ffff;
+  box-shadow: 0px 5px 10px 0px#f4f4f4;
+  overflow: hidden;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-ul-one {
+  display: flex;
+  padding-top: 20px;
+}
+.nav-ul-one a {
+  text-decoration: none;
+  color: #212a2f;
+}
+.nav-ul-one :nth-child(6) {
+  color: #ad1f00;
+}
+.nav-ul-one :nth-child(6):hover {
+  color: #ad1f00;
+}
+.nav-ul-one li {
+  margin-right: 40px;
+  color: #212a2f;
+  text-transform: uppercase;
+}
+.nav-ul-one li:hover {
+  margin-right: 40px;
+  color: #212a2f;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-ul-two {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.logo-pics-one {
+  height: 40px;
+}
+.nav-ul-three {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.nav-ul-three li {
+  margin-left: 40px;
+  color: #212a2f;
+  text-transform: uppercase;
+}
+.nav-ul-three li:hover {
+  margin-left: 40px;
+  color: #212a2f;
+  text-transform: uppercase;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-ul-four {
+  display: flex;
+  padding-top: 20px;
+}
+.nav-ul-four :nth-child(3) img {
+  height: 28px;
+}
+.nav-ul-four li {
+  margin-left: 15px;
+}
+.nav-ul-four li:hover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.nav-ul-four li {
+  margin-left: 15px;
+}
+.nav-ul-four li:hover {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.mega-menu-list {
+  display: flex;
+}
+.mega-menu-ul {
+  margin: 50px;
+  text-transform: capitalize;
+  color: #212a2f;
+  font-size: 16px;
+  font-weight: 400;
+}
+.mega-menu-ul li {
+  margin: 10px;
+  cursor: pointer;
+}
+.mega-menu-ul li a {
+  text-decoration: none;
+  color: #212a2f;
+}
+.mega-menu-ul li:hover {
+  margin: 10px;
+  text-decoration: underline;
+}
+.mega-menu-list-title {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #212a2f;
+  font-size: 22px;
+  font-weight: 700;
+}
+.featured-pics1 {
+  background-image: url(./images/allbirds-images-folder-one/23Q4-WR2-Color-Refresh-Site-Nav_Tile_Desktop-Men-1125x324.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+.featured-pics2 {
+  background-image: url(./images/allbirds-images-folder-one/23Q4-Holiday_Ch1-Site-Nav_Tile_Desktop-Men-1125x324.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+.featured-pics-p {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-right: 50px;
+  margin-left: 140px;
+}
+.featured-pics-p a {
+  text-decoration: none;
+  color: #ffff;
+}
+.featured-pics-p a:hover {
+  text-decoration: underline white;
+  color: #ffff;
+}
+.mega-footer {
+  background-color: rgb(33, 41, 46, 0.8);
+  text-align: center;
+  padding-bottom: 15px;
+}
+.mega-menu-footer-text {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212a2f;
+  text-transform: capitalize;
+}
+.footer-img {
+  background-image: url(./images/allbirds-images-folder-one/23Q4-Holiday_Ch3-Hero-Alt_WRM-Desktop-3840___1439.avif);
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 90%;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
